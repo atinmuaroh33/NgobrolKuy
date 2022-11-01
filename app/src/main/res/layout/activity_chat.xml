@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".Chat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NgobrolKuy"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/titik3"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        android:src="@drawable/ic_baseline_more_vert_24"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/potoprofil"
+        android:layout_width="70dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/man"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:text="Juned"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@+id/potoprofil"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="18:30"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@id/titik3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bro nongkrong yuk"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@+id/potoprofil"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <ImageView
+        android:id="@+id/potoprofil2"
+        android:layout_width="70dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/yy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="40dp"
+        android:text="Ligma"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@+id/potoprofil2"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <ImageView
+        android:id="@+id/potoprofil2"
+        android:layout_width="70dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/shopee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="128dp"
+        android:text="Shopee Security"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toRightOf="@+id/potoprofil2"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="JANGAN BERI kode ke siapapun"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintLeft_toRightOf="@+id/potoprofil2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
